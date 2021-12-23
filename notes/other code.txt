@@ -1,0 +1,19 @@
+
+// other way of saving a Squares data
+namespace CS_Objects.Square.Data
+{
+    class SquareData
+    {
+        
+        public SquareData(float ax_pos = 0, float ay_pos = 0, float ax_velocity = 0, float ay_velocity = 0, float aheight = 0, float awidth = 0)
+        {
+        }
+    }
+}
+
+
+// for vectores
+        // public string[] GetStrings()
+        // {
+        //     return new string[2] {x.ToString("0.000"), y.ToString("0.000")};
+        // }

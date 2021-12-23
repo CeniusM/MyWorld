@@ -2,6 +2,8 @@ namespace CS_Objects.Ball.Data
 {
     class BallData
     {
+        // public float rotation = 0f;
+        // public float rotation_velocity = 0f;
         public float x_pos = 0f;
         public float y_pos = 0f;
         public float x_velocity = 0f;
