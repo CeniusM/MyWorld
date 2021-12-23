@@ -1,0 +1,1 @@
+This API is used for getting the input from the Graphics engine and turning it in to a bitmap that the from can understand and print
