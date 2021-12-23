@@ -1,4 +1,4 @@
-﻿namespace CS_World;
+﻿namespace MyForm;
 
 partial class Form1
 {

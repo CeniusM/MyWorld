@@ -1,7 +1,7 @@
-using CS_World.WorldObjects;
+using CS_World.World_Objects;
 using CS_Objects.Ball;
 using CS_Objects.Ball.Data;
-using CS_World.WorldDimensions;
+using CS_World.World_Dimensions;
 
 
 // using CS_o Ball;
@@ -13,7 +13,7 @@ namespace CS_World
 {
     class World
     {
-        private Dimensions worldDimensions = new Dimensions();
+        private WorldDimensions worldDimensions = new WorldDimensions();
         private Objects objects = new Objects();
         public World()
         {

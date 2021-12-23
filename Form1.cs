@@ -1,4 +1,4 @@
-namespace CS_World;
+namespace MyForm;
 
 public partial class Form1 : Form
 {

@@ -1,4 +1,6 @@
-namespace CS_World;
+using CS_MyGame;
+
+namespace MyForm;
 
 static class Program
 {
@@ -10,7 +12,8 @@ static class Program
     {
         ApplicationConfiguration.Initialize();
         Application.Run(new Form1());
-        World myWorld = new World();
-        myWorld.Start();
+
+        Game game = new Game();
+        game.Start();
     }
 }
