@@ -1,4 +1,4 @@
-using CS_MyGame;
+using CS_Game;
 using CS_Testing;
 
 namespace MyForm;
@@ -12,9 +12,12 @@ static class Program
     static void Main()
     {
         ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
 
-        Game game = new Game();
+        Form1 myForm = new Form1();
+
+        Application.Run(myForm);
+
+        Game game = new Game(myForm);
         game.Start();
     }
 }

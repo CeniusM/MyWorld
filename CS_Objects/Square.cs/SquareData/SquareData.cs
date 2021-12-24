@@ -2,6 +2,7 @@ namespace CS_Objects.Square.Data
 {
     class SquareData
     {
+        // float bounciness = 0f; // 0 - 1, 1 being the most bounci
         // public float rotation = 0f;
         // public float rotation_velocity = 0f;
         public float x_pos = 0f;

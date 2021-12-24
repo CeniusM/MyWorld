@@ -10,5 +10,12 @@ namespace CS_MyConsole
             lines.Add(text);
             File.WriteAllLines(path, lines);
         }
+        public static void Write(string text)
+        {
+            List<string> lines = new List<string>();
+            lines = File.ReadAllLines(path).ToList();
+            lines[lines.Count()-1] = lines[lines.Count()-1] + text;
+            File.WriteAllLines(path, lines);
+        }
     }
 }
