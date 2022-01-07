@@ -5,7 +5,7 @@ using CS_World.World_Objects;
 
 namespace CS_Graphics_Engine.FrameRender
 {
-    public class FrameRender
+    class FrameRender
     {
         WorldDimensions worldDimensions;
         Objects objects;
